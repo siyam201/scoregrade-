@@ -11,7 +11,7 @@ function gradeScore() {
     } else if (scor >= 0 && scor <= 32) {
         f = 'FALL: F';
     } else {
-        g = 'Invalid Score';
+        f = 'Invalid Score';
     }
     document.getElementById('f').innerText = f;
     document.getElementById('result').innerText = g;
